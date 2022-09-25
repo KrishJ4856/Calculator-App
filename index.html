@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <script defer src="index.js"></script>
+  <title>Calculator app</title>
+</head>
+<body>
+  <div id="container">
+    
+    <div id="header">
+      <h2>calc</h2>
+      <p>Theme</p>
+      <div id="toggle">
+        <span id="item1" class="theme-num">1</span>
+        <span id="item2" class="theme-num">2</span>
+        <span id="item3" class="theme-num">3</span>
+        <div id="move-theme">
+          <div id="circle"></div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <input type="text" id="result" readonly>
+
+    <form id="calculator">
+      <span class="item">8</span>
+      <span class="item">9</span>
+      <span class="item">4</span>
+      <span class="item" id="delete">DEL</span>
+      <span class="item">5</span>
+      <span class="item">6</span>
+      <span class="item">7</span>
+      <span class="item">+</span>
+      <span class="item">1</span>
+      <span class="item">2</span>
+      <span class="item">3</span>
+      <span class="item">-</span>
+      <span class="item">.</span>
+      <span class="item">0</span>
+      <span class="item">/</span>
+      <span class="item">*</span>
+      <span class="item" id="reset">RESET</span>
+      <span class="item" id="equals">=</span>
+    </form>
+  </div>
+</body>
+</html>
