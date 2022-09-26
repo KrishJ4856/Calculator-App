@@ -1,5 +1,5 @@
 # Calculator App
-My first project - Calculator App
+### **My First Project** - Calculator App
 
 I have worked on the logic of this Calculator App and have tried to replicate the design from [The Calculator App Challenge by Front End Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29) 
 
